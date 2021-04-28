@@ -1,0 +1,31 @@
+* Z:\home\frohro\Classes\Power Electronics\Buck Converter Arduino Control\Arduino Buck Converter.asc
+M§Q1 N002 N007 N001 N001 IRF9640
+V1 N001 0 10V
+D1 0 N002 B540C
+L1 N003 N004 1mH Rser=.1
+C1 N005 N006 100µF Rser=.1
+RL N005 0 10
+V2 N010 0 PULSE(0 4.5 0 {T/100} {T/100} {.5*T} {T})
+R5 N005 N004 1
+Q2 N007 N009 N008 0 2N2222
+R1 N001 N007 1k
+R2 N009 N010 10k
+V3 N008 0 3.3V
+Rinductor N003 N002 0.33
+R3 N006 0 8m
+.model D D
+.lib C:\users\frohro\My Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\frohro\My Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\frohro\My Documents\LTspiceXVII\lib\cmp\standard.mos
+.param T={1/30000}
+.tran {400*T}
+* R2 needs to be at least one watt.
+* D1 should be at least 1/2 watt.
+* R3 needs to be 1/4 watt at least.
+* Q1 must dissipate at least 500 mW.
+.backanno
+.end

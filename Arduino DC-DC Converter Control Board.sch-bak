@@ -54,7 +54,7 @@ L Device:CP1 C3
 U 1 1 6020D1FE
 P 7550 1850
 F 0 "C3" H 7665 1896 50  0000 L CNN
-F 1 "CP1" H 7665 1805 50  0000 L CNN
+F 1 "100uF" H 7665 1805 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 7550 1850 50  0001 C CNN
 F 3 "~" H 7550 1850 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/united-chemi-con/APSG160ELL102MH20S/5824534" H 7550 1850 50  0001 C CNN "Digikey"
@@ -610,9 +610,9 @@ U 1 1 6022DEA8
 P 4150 1850
 F 0 "D1" V 4104 1930 50  0000 L CNN
 F 1 "B540C" V 4195 1930 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 4150 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_3220_8050Metric" H 4150 1850 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds13012.pdf" H 4150 1850 50  0001 C CNN
-F 4 "https://www.diodes.com/assets/Datasheets/ds13012.pdf" V 4150 1850 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/en/products/detail/diodes-incorporated/B540C-13-F/768771" V 4150 1850 50  0001 C CNN "Digikey"
 	1    4150 1850
 	0    1    1    0   
 $EndComp

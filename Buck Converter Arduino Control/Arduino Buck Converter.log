@@ -1,0 +1,21 @@
+Circuit: * Z:\home\frohro\Classes\Power Electronics\Buck Converter Arduino Control\Arduino Buck Converter.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Apr 28 12:32:59 2021
+Total elapsed time: 1.567 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 336504
+traniter = 336497
+tranpoints = 90087
+accept = 65590
+rejected = 24497
+matrix size = 21
+fillins = 2
+solver = Normal
+Matrix Compiler1: 1.17 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: 1.63 KB object code size  0.2/0.3/[0.2]
+

@@ -6,11 +6,11 @@ encoding utf-8
 Sheet 1 1
 Title "Arduino DC-DC Converter Control Board "
 Date "2021-02-05"
-Rev "0.11"
+Rev "0.111"
 Comp "Walla Walla University"
 Comment1 "Rob Frohne"
 Comment2 "This board is for experiments with controlling a DC-DC  converter using an Arduino."
-Comment3 ""
+Comment3 "Fixed the footprint of D1"
 Comment4 ""
 $EndDescr
 $Comp
@@ -610,9 +610,9 @@ U 1 1 6022DEA8
 P 4150 1850
 F 0 "D1" V 4104 1930 50  0000 L CNN
 F 1 "B540C" V 4195 1930 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 4150 1850 50  0001 C CNN
+F 2 "Diode_SMD:D_3220_8050Metric" H 4150 1850 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds13012.pdf" H 4150 1850 50  0001 C CNN
-F 4 "https://www.diodes.com/assets/Datasheets/ds13012.pdf" V 4150 1850 50  0001 C CNN "Digikey"
+F 4 "https://www.digikey.com/en/products/detail/diodes-incorporated/B540C-13-F/768771" V 4150 1850 50  0001 C CNN "Digikey"
 	1    4150 1850
 	0    1    1    0   
 $EndComp
